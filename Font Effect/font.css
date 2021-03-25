@@ -5,17 +5,13 @@
 }
 body{
     background-color:black;
+    font-family: 'Kanit', sans-serif;
 }
-h1{
-    position:absolute;
-    color:white;
-    margin-left:900px;
-    top:200px;
-}
+
 .container{
     width:100%;
     display:flex;
-    font-family: 'Kanit', sans-serif;
+    
 }
 .canvas{
     position:absolute;
