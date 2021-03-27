@@ -1,4 +1,4 @@
-window.addEventListener(DOMContentLoaded, ()=>{
+
 //setup
 const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
@@ -12,15 +12,15 @@ let adjustY = 0;
 const mouse = {
     x: null,
     y: null, 
-    radius: 50
+    radius: 40
 }
 window.addEventListener('mousemove', function(event){
     mouse.x = event.x;  //default X coordinate
     mouse.y = event.y;  //default Y coordinate
 });
 ctx.fillStyle = 'white';
-ctx.font = '2rem  Arial';
-ctx.fillText("Hard" , 10, 100);  // font, x-position,y-position
+ctx.font = '3rem  Kanit';
+ctx.fillText("J" , 10, 100);  // font, x-position,y-position
 // ctx.strokeStyle = 'white'; //storke is border?
 // ctx.strokeRect(10,0,240,200);
 const textCoordinates = ctx.getImageData(0,50,200,200);  // x-pos, y-pos, width, height
@@ -112,6 +112,3 @@ function effect(){
         }
     }
 }
-
-
-})
